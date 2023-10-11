@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerEmailText"
+        android:text="User Email"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:textColor="@color/purple_200"
+        ></TextView>
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:id="@+id/recyclerImageView"
+
+        ></ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_margin="5dp"
+        android:id="@+id/recyclerCommentText"
+        android:text="test test test"
+        ></TextView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
